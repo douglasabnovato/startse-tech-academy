@@ -1,3 +1,3 @@
-### startSe tech academy
+### StartSe tech academy
 
 - Detalhes do bootcamp startSe-tech-academy
