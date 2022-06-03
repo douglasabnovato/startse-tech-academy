@@ -50,7 +50,7 @@ p {
 }
 
 /* Seção de apresentação */
-.presentation {
+#presentation {
     background-image: url(./coffee-0.jpg);
     background-size: cover;
     background-position: top center;
@@ -58,7 +58,7 @@ p {
     z-index: 1;
 }
 
-.presentation h1 {
+#presentation h1 {
     display: block;
     width: fit-content;
     font-size: 5rem;
@@ -68,24 +68,24 @@ p {
     animation-delay: 1.5s;
 }
 
-.presentation h1:nth-child(1) {
+#presentation h1:nth-child(1) {
     animation-delay: .8s;
 }
 
-.presentation h1:nth-child(2) {
+#presentation h1:nth-child(2) {
     animation: text_reveal_name .5s ease forwards;
     animation-delay: 1.8s;
 }
 
-.presentation h1:nth-child(3) {
+#presentation h1:nth-child(3) {
     animation-delay: 2.8s;
 }
 
-.presentation h1:nth-child(4) {
+#presentation h1:nth-child(4) {
     animation-delay: 3.8s;
 }
 
-.presentation .cta {
+#presentation .cta {
     display: inline-block;
     padding: 10px 30px;
     color: gold;
@@ -100,13 +100,13 @@ p {
 
 }
 
-.presentation .cta:hover {
+#presentation .cta:hover {
     color: white;
     font-weight: 500;
     background-color: gold;
 }
 
-.presentation h1 span {
+#presentation h1 span {
     position: absolute;
     top: 0;
     left: 0;
@@ -117,23 +117,23 @@ p {
     background-color: gold;
 }
 
-.presentation h1:nth-child(1) span {
+#presentation h1:nth-child(1) span {
     animation-delay: .5s;
 }
 
-.presentation h1:nth-child(2) span {
+#presentation h1:nth-child(2) span {
     animation-delay: 1.5s;
 }
 
-.presentation h1:nth-child(3) span {
+#presentation h1:nth-child(3) span {
     animation-delay: 2.5s;
 }
 
-.presentation h1:nth-child(4) span {
+#presentation h1:nth-child(4) span {
     animation-delay: 3.5s;
 }
 
-.presentation::after {
+#presentation::after {
     content: '';
     position: absolute;
     left: 0;
@@ -146,25 +146,25 @@ p {
 }
 
 /* Seção de cafés */
-#portfolio .portfolio {
+#coffee .portfolio {
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 0;
 }
 
-#portfolio .portfolio-header h1 {
+#coffee .portfolio-header h1 {
     margin-bottom: 50px;
 }
 
-#portfolio .all-projects {
+#coffee .all-projects {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-#portfolio .project-item {
+#coffee .project-item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,7 +175,7 @@ p {
     border-radius: 10px;
 }
 
-#portfolio .project-info {
+#coffee .project-info {
     padding: 30px;
     flex-basis: 50%;
     height: 100%;
@@ -187,25 +187,25 @@ p {
     color: white;
 }
 
-#portfolio .project-info h1 {
+#coffee .project-info h1 {
     font-size: 4rem;
     font-weight: 500;
 }
 
-#portfolio .project-info h2 {
+#coffee .project-info h2 {
     font-size: 1.8rem;
     font-weight: 500;
     margin-top: 10px;
 }
 
-#portfolio .project-img {
+#coffee .project-img {
     flex-basis: 50%;
     height: 300px;
     overflow: hidden;
     position: relative;
 }
 
-#portfolio .project-img:after {
+#coffee .project-img:after {
     content: '';
     position: absolute;
     left: 0;
@@ -216,11 +216,11 @@ p {
     opacity: 0.7;
 }
 
-#portfolio .project-img img {
+#coffee .project-img img {
     transition: 0.5s ease transform;
 }
 
-#portfolio .project-item:hover .project-img img {
+#coffee .project-item:hover .project-img img {
     transform: scale(1.1);
 }
 
@@ -253,7 +253,7 @@ p {
 /* Media Query */
 @media only screen and (min-width: 768px) {
 
-    #portfolio .project-item {
+    #coffee .project-item {
         flex-direction: row;
         height: 400px;
         margin: 0;
@@ -261,15 +261,15 @@ p {
         border-radius: 0;
     }
 
-    #portfolio .all-projects .project-info {
+    #coffee .all-projects .project-info {
         height: 100%
     }
 
-    #portfolio .all-projects .project-img {
+    #coffee .all-projects .project-img {
         height: 100%
     }
 
-    #portfolio .project-item:nth-child(even) {
+    #coffee .project-item:nth-child(even) {
         flex-direction: row-reverse;
     }
 
