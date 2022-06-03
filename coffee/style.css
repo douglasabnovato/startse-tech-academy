@@ -146,25 +146,25 @@ p {
 }
 
 /* Seção de cafés */
-#coffee .portfolio {
+#coffee .coffee {
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 0;
 }
 
-#coffee .portfolio-header h1 {
+#coffee .coffee-header h1 {
     margin-bottom: 50px;
 }
 
-#coffee .all-projects {
+#coffee .all-coffee-beans {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-#coffee .project-item {
+#coffee .coffee-bean-item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,7 +175,7 @@ p {
     border-radius: 10px;
 }
 
-#coffee .project-info {
+#coffee .coffee-bean-info {
     padding: 30px;
     flex-basis: 50%;
     height: 100%;
@@ -187,25 +187,25 @@ p {
     color: white;
 }
 
-#coffee .project-info h1 {
+#coffee .coffee-bean-info h1 {
     font-size: 4rem;
     font-weight: 500;
 }
 
-#coffee .project-info h2 {
+#coffee .coffee-bean-info h2 {
     font-size: 1.8rem;
     font-weight: 500;
     margin-top: 10px;
 }
 
-#coffee .project-img {
+#coffee .coffee-bean-img {
     flex-basis: 50%;
     height: 300px;
     overflow: hidden;
     position: relative;
 }
 
-#coffee .project-img:after {
+#coffee .coffee-bean-img:after {
     content: '';
     position: absolute;
     left: 0;
@@ -216,11 +216,11 @@ p {
     opacity: 0.7;
 }
 
-#coffee .project-img img {
+#coffee .coffee-bean-img img {
     transition: 0.5s ease transform;
 }
 
-#coffee .project-item:hover .project-img img {
+#coffee .coffee-bean-item:hover .coffee-bean-img img {
     transform: scale(1.1);
 }
 
@@ -253,7 +253,7 @@ p {
 /* Media Query */
 @media only screen and (min-width: 768px) {
 
-    #coffee .project-item {
+    #coffee .coffee-bean-item {
         flex-direction: row;
         height: 400px;
         margin: 0;
@@ -261,15 +261,15 @@ p {
         border-radius: 0;
     }
 
-    #coffee .all-projects .project-info {
+    #coffee .all-coffee-beans .coffee-bean-info {
         height: 100%
     }
 
-    #coffee .all-projects .project-img {
+    #coffee .all-coffee-beans .coffee-bean-img {
         height: 100%
     }
 
-    #coffee .project-item:nth-child(even) {
+    #coffee .coffee-bean-item:nth-child(even) {
         flex-direction: row-reverse;
     }
 
