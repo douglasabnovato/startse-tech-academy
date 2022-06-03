@@ -51,7 +51,7 @@ p {
 
 /* Seção de apresentação */
 #presentation {
-    background-image: url(./coffee-0.jpg);
+    background-image: url(./assets/coffee-0.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
