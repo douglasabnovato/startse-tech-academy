@@ -49,7 +49,6 @@ p {
     text-align: center;
 }
 
-/* Seção de apresentação */
 #presentation {
     background-image: url(./assets/coffee-0.jpg);
     background-size: cover;
@@ -145,7 +144,6 @@ p {
     z-index: -1;
 }
 
-/* Seção de cafés */
 #coffee .coffee {
     flex-direction: column;
     max-width: 1200px;
@@ -153,8 +151,10 @@ p {
     padding: 100px 0;
 }
 
-#coffee .coffee-header h1 {
+#coffee .coffee-header{
     margin-bottom: 50px;
+    width: 100%;
+    max-width: 100vw;
 }
 
 #coffee .all-coffee-beans {
@@ -224,7 +224,52 @@ p {
     transform: scale(1.1);
 }
 
-/* Keyframes */
+.coffee-footer {
+    position: relative;
+    font-family: monospace;
+    color: rgb(18, 68, 21);
+    font-size: 4em;
+    filter: contrast(15);
+}
+
+.word {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: switch 8s infinite ease-in-out;
+  min-width: 100%;
+  margin: auto;
+}
+
+.word:nth-child(1) {
+    animation-delay: -7s;
+}
+
+.word:nth-child(2) {
+    animation-delay: -6s;
+}
+
+.word:nth-child(3) {
+    animation-delay: -5s;
+}
+
+@keyframes switch {
+
+    0%,
+    5%,
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+
+    50%,
+    80% {
+      filter: blur(180px);
+      opacity: 0;
+    }
+}
+
 @keyframes text_reveal {
     100% {
         color: white;
@@ -250,7 +295,6 @@ p {
     }
 }
 
-/* Media Query */
 @media only screen and (min-width: 768px) {
 
     #coffee .coffee-bean-item {

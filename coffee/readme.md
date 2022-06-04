@@ -3,8 +3,8 @@
 - projeto desafio da aula ao vivo - 4a semana
 - [documentação do css](https://developer.mozilla.org/en-US/docs/Web/CSS) 
 - tornar aplicação original: tema de café para a página
-- [ ] explorar animações em css
-- [ ] adicionar um contexto ao site - receitas de café
+- [x] adicionar um contexto ao site: receitas de café
+- [x] explorar animações em css: roda pé
 - [ ] adicionar seção
 - [ ] refatorar com tags semânticas
 - [ ] organizar css
