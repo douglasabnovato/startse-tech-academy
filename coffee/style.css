@@ -174,7 +174,6 @@ p {
 
 #coffee .coffee-header {
     height: 10vh;
-    margin: 0;
     display: grid;
     place-content: center;
 }
@@ -184,7 +183,6 @@ p {
     font-weight: 500;
     cursor: pointer;
     padding: 0 .1em;
-    margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     text-align: center;

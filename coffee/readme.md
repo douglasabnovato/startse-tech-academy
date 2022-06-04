@@ -12,5 +12,6 @@
 - [x] usar mais imagens: quatro img
 - [x] inserir textos de verdade: receitas
 - [x] adicionar roda pé: frase animação css
+- [ ] centralizar verticalmente header coffee
 - [ ] usar material web.dev: internacionalização
 - [ ] usar material web.dev: unidade de medida fluída
