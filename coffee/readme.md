@@ -5,9 +5,9 @@
 - tornar aplicação original: tema de café para a página
 - [x] adicionar um contexto ao site: receitas de café
 - [x] explorar animações em css: roda pé
-- [ ] adicionar seção
-- [ ] refatorar com tags semânticas
-- [ ] organizar css
+- [x] adicionar seção: rodapé
+- [x] refatorar com tags semânticas
+- [x] organizar css: o arquivo está em ordem de elementos html
 - [ ] usar material css-tricks
 - [ ] usar mais imagens
 - [ ] inserir textos de verdade
