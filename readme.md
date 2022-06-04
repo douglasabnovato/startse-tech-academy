@@ -1,3 +1,3 @@
 ### StartSe Tech Academy
 
-- Detalhes do bootcamp startSe-tech-academy
+- projetos do bootcamp startSe-tech-academy
