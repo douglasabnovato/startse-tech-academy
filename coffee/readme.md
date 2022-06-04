@@ -8,14 +8,9 @@
 - [x] adicionar seção: rodapé
 - [x] refatorar com tags semânticas
 - [x] organizar css: o arquivo está em ordem de elementos html
-- [ ] usar material css-tricks
-- [ ] usar mais imagens
-- [ ] inserir textos de verdade
-- [ ] adicionar roda pé
-- [ ] usar material web.dev
-- [ ] manter o material inicial na raiz do projeto
-- [ ] composição de cores
-- [ ] responsividade
-- [ ] acessibilidade
-- [ ] internacionalização
-- [ ] unidades fluídas
+- [x] usar material css-tricks: título
+- [x] usar mais imagens: quatro img
+- [x] inserir textos de verdade: receitas
+- [x] adicionar roda pé: frase animação css
+- [ ] usar material web.dev: internacionalização
+- [ ] usar material web.dev: unidade de medida fluída
