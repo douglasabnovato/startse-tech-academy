@@ -24,7 +24,7 @@ img {
 
 p {
     font-size: 1.4rem;
-    margin-top: 2rem;
+    margin-block-start: 2rem;
     line-height: 2.5rem;
     font-weight: 200;
     letter-spacing: .05rem;
@@ -42,8 +42,8 @@ p {
     font-size: 4rem;
     font-weight: 500;
     color: black;
-    margin-bottom: 10px;
-    margin-top: 5px;
+    margin-block-end: 1rem;
+    margin-block-start: .5rem;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     text-align: center;
@@ -86,14 +86,14 @@ p {
 
 #presentation .cta {
     display: inline-block;
-    padding: 10px 30px;
+    padding: 1rem 3rem;
     color: gold;
     background-color: transparent;
-    border: 2px solid gold;
+    border: .2rem solid gold;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    margin-top: 20px;
+    margin-block-start: 2rem;
     transition: .5s ease;
     transition-property: background-color, color;
 
@@ -146,16 +146,13 @@ p {
 
 #coffee .coffee {
     flex-direction: column;
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
 }
 
 .section-title-hover {
     --b: 0.1em;
-    /* the thickness of the line */
     --c: #8b5a3d;
-    /* the color */
-
     color: #0000;
     padding-block: var(--b);
     background:
@@ -176,8 +173,8 @@ p {
     width: 100vw;
     display: grid;
     place-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-block-start: 4rem;
+    margin-block-end: 4rem;
 }
 
 #coffee .coffee-header h1 {
@@ -209,7 +206,7 @@ p {
 }
 
 #coffee .coffee-bean-info {
-    padding: 30px;
+    padding: 3rem;
     flex-basis: 50%;
     height: 100%;
     display: flex;
@@ -228,12 +225,12 @@ p {
 #coffee .coffee-bean-info h2 {
     font-size: 1.8rem;
     font-weight: 500;
-    margin-top: 10px;
+    margin-block-start: 1rem;
 }
 
 #coffee .coffee-bean-img {
     flex-basis: 50%;
-    height: 300px;
+    height: 30rem;
     overflow: hidden;
     position: relative;
 }
@@ -264,7 +261,7 @@ p {
     font-size: 4em;
     filter: contrast(15);
     text-align: center;
-    margin-top: 65px;
+    margin-block-start: 6.5rem;
 }
 
 .word {
@@ -300,7 +297,7 @@ p {
 
     50%,
     80% {
-        filter: blur(180px);
+        filter: blur(18rem);
         opacity: 0;
     }
 }
@@ -314,27 +311,27 @@ p {
 @keyframes text_reveal_name {
     100% {
         color: gold;
-        font-weight: 500px;
+        font-weight: 50rem;
     }
 }
 
 @keyframes text_reveal_box {
     50% {
         width: 100%;
-        left: 0;
+        inline-start: 0;
     }
 
     100% {
         width: 0;
-        left: 100%
+        inline-start: 100%
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 76.8rem) {
 
     #coffee .coffee-bean-item {
         flex-direction: row;
-        height: 400px;
+        height: 40rem;
         margin: 0;
         width: 100%;
         border-radius: 0;

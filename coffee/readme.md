@@ -14,5 +14,5 @@
 - [x] adicionar roda pé: frase animação css
 - [x] centralizar verticalmente header coffee
 - [x] centralizar verticalmente footer coffee
-- [ ] usar material web.dev: internacionalização
-- [ ] usar material web.dev: unidade de medida fluída
+- [x] usar material web.dev: internacionalização
+- [x] usar material web.dev: unidade de medida fluída
