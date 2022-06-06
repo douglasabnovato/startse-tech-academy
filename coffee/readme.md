@@ -26,8 +26,8 @@
 
 - nossa página
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">  
-<img alt="Um site para uma cafeteria" title="#Coffee🚀" src="./.github/1-presentation.jpg" width="400px"/>
-<img alt="Um site para uma cafeteria" title="#Coffee🚀" src="./.github/2-coffee.jpg" width="400px"/>
+<img alt="Um site para uma cafeteria" title="#Coffee🚀" src="./.github/1-presentation.jpg" width="450px"/>
+<img alt="Um site para uma cafeteria" title="#Coffee🚀" src="./.github/2-coffee.jpg" width="450px"/>
 <img alt="Um site para uma cafeteria" title="#Coffee🚀" src="./.github/3-presentation.jpg" height="400px"/>
 <img alt="Um site para uma cafeteria" title="#Coffee🚀" src="./.github/4-footer.jpg" height="400px"/>
 </p>
