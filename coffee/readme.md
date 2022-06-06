@@ -23,6 +23,7 @@
 - [x] centralizar verticalmente footer coffee
 - [x] usar material web.dev: internacionalização
 - [x] usar material web.dev: unidade de medida fluída
+- [x] margin left no presentation em modo mobile
 
 - nossa página
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">  

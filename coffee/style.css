@@ -350,3 +350,11 @@ p {
     }
 
 }
+
+@media only screen and (max-width: 76.8rem) {
+
+    #presentation .container header{
+        margin-inline-start: 2rem;
+    }
+
+}
