@@ -31,3 +31,7 @@
 <img alt="Um site para uma cafeteria" title="#Coffee🚀" src="./.github/3-presentation.jpg" height="400px"/>
 <img alt="Um site para uma cafeteria" title="#Coffee🚀" src="./.github/4-footer.jpg" height="400px"/>
 </p>
+
+--- 
+
+Feito com ❤️ por Douglas A B Novato 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
