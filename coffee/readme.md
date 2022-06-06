@@ -1,4 +1,11 @@
-### Coffee
+
+<h3 align="center"> 
+	🚧 Coffee🚀
+</h3> 
+
+<h1 align="center">
+    <img alt="Um site para uma cafeteria" title="#Coffee🚀" src="./.github/1-presentation.jpg" />
+</h1>
 
 - projeto desafio da aula ao vivo - 4a semana
 - [documentação do css](https://developer.mozilla.org/en-US/docs/Web/CSS) 
@@ -16,3 +23,11 @@
 - [x] centralizar verticalmente footer coffee
 - [x] usar material web.dev: internacionalização
 - [x] usar material web.dev: unidade de medida fluída
+
+- nossa página
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">  
+<img alt="Um site para uma cafeteria" title="#Coffee🚀" src="./.github/1-presentation.jpg" width="400px"/>
+<img alt="Um site para uma cafeteria" title="#Coffee🚀" src="./.github/2-coffee.jpg" width="400px"/>
+<img alt="Um site para uma cafeteria" title="#Coffee🚀" src="./.github/3-presentation.jpg" width="400px"/>
+<img alt="Um site para uma cafeteria" title="#Coffee🚀" src="./.github/4-footer.jpg" width="400px"/>
+</p>
