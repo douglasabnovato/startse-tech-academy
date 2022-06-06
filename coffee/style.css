@@ -148,7 +148,6 @@ p {
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 100px 0;
 }
 
 .section-title-hover {
@@ -173,12 +172,15 @@ p {
 }
 
 #coffee .coffee-header {
-    height: 10vh;
+    height: 100%;
+    width: 100vw;
     display: grid;
     place-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-#coffee .coffee-header h1{
+#coffee .coffee-header h1 {
     font-size: 5rem;
     font-weight: 500;
     cursor: pointer;
@@ -261,6 +263,8 @@ p {
     color: #8b5a3d;
     font-size: 4em;
     filter: contrast(15);
+    text-align: center;
+    margin-top: 65px;
 }
 
 .word {
