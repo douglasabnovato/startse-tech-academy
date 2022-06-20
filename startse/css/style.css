@@ -160,6 +160,7 @@ main .container-main img {
     margin-bottom: 0px;
 }
 
+/* 
 .desafio {
     font-size: 100px;
     display: flex;
@@ -169,4 +170,50 @@ main .container-main img {
     border: 1px solid black;
     margin: 100px auto;
     max-width: 980px;
+}*/
+
+/* Style the container/contact section */
+.desafio {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Style inputs */
+.desafio input[type=text], .desafio select, .desafio textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.desafio input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.desafio input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+
+/* Create two columns that float next to eachother */
+.desafio .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.desafio .row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
