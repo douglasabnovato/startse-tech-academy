@@ -160,23 +160,13 @@ main .container-main img {
     margin-bottom: 0px;
 }
 
-/* 
-.desafio {
-    font-size: 100px;
-    display: flex;
-    justify-content: center;
-    height: 400px;
-    align-items: center;
-    border: 1px solid black;
-    margin: 100px auto;
-    max-width: 980px;
-}*/
-
 /* Style the container/contact section */
 .desafio {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
+    margin: 100px auto;
+    max-width: 980px;
 }
 
 /* Style inputs */
@@ -200,8 +190,6 @@ main .container-main img {
 .desafio input[type=submit]:hover {
     background-color: #45a049;
 }
-
-
 
 /* Create two columns that float next to eachother */
 .desafio .column {
