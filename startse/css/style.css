@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap');
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -11,7 +12,7 @@ body {
     font-family: "Source Sans Pro", 'Times New Roman';
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-} 
+}
 
 /* HEADER */
 
@@ -19,7 +20,7 @@ header {
     background-color: #0080ed;
 }
 
-header .container{
+header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,7 +29,7 @@ header .container{
     margin: auto;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
 }
 
@@ -46,15 +47,15 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: rgba(255,255,255,0.15);
+    background: rgba(255, 255, 255, 0.15);
 }
 
-header .container img{
+header .container img {
     height: 30px;
 }
 
-#checkbox-menu{
-    display:none
+#checkbox-menu {
+    display: none
 }
 
 /* MAIN */
@@ -62,7 +63,7 @@ main {
     margin-bottom: 100px;
 }
 
-main .container-main{
+main .container-main {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -70,15 +71,15 @@ main .container-main{
     margin: 100px auto 0px auto;
 }
 
-h2{
-    color: rgb(0,0,0);
+h2 {
+    color: rgb(0, 0, 0);
     font-size: 45px;
     line-height: 50px;
     font-weight: bold;
 }
 
-h3{
-    color: rgb(131,131,131);
+h3 {
+    color: rgb(131, 131, 131);
     font-size: 20px;
     line-height: 28px;
     margin: 10px 0;
@@ -97,6 +98,7 @@ form input {
     border-radius: 20px;
     border: 2px solid #0080ed;
 }
+
 form [type="submit"] {
     background-color: #0080ed;
     color: white;
@@ -105,13 +107,14 @@ form [type="submit"] {
     font-size: 16px;
     height: 40px;
 }
+
 form [type="submit"]:hover {
     cursor: pointer;
-    background-color: rgba(0,128,237,0.75);
+    background-color: rgba(0, 128, 237, 0.75);
     transform: translateY(-2px);
 }
 
-main .container-main img{
+main .container-main img {
     width: 600px;
 }
 
@@ -130,14 +133,14 @@ a {
     grid-gap: 20px;
 }
 
-.text--medium{
+.text--medium {
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-    color: rgb(187,185,185);
+    color: rgb(187, 185, 185);
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     cursor: pointer;
@@ -146,7 +149,7 @@ a {
     border-radius: 10px;
 }
 
-.card:hover{
+.card:hover {
     transform: translateY(-7px);
 }
 
@@ -159,7 +162,7 @@ a {
     height: 225px;
 }
 
-.image img{
+.image img {
     position: absolute;
     border-radius: 10px;
     top: 50%;
@@ -168,11 +171,11 @@ a {
 }
 
 .content {
-    margin:20px;
+    margin: 20px;
 }
 
-.title{
-    margin-bottom:0px;
+.title {
+    margin-bottom: 0px;
 }
 
 /* Style the container/contact section */

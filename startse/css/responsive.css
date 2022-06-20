@@ -121,14 +121,14 @@
         top: 8px
     }
 
-    nav.menu{
+    nav.menu {
         width: 100%;
     }
 
     #checkbox-menu:checked~nav .menu {
         transform: translateX(-100vw);
         transition: 0.5s ease transform;
-    } 
+    }
 
 }
 
