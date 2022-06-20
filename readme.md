@@ -5,3 +5,5 @@ Projetos do Bootcamp Tech Academy - Turma 1
 - [x] coffee: desafio 4a semana
 - [ ] startse: live coding 5a semana
 - [ ] startse: desafio 5a semana
+
+
