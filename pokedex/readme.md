@@ -1,1 +1,12 @@
 ### pokedex
+
+- consumir dados da Pokeapi
+- [Documentação](https://pokeapi.co/docs/v2)
+- [Nome](https://pokeapi.co/api/v2/pokemon/ditto)
+- [Pikachu](https://pokeapi.co/api/v2/pokemon/25)
+- [Imagens de Pokemon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png)
+
+#### Observações da solução adotada
+
+- o fetch é chamado dentro do loop for
+- revisar a estilização dos cards

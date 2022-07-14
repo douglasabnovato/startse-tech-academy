@@ -8,10 +8,10 @@ Módulos
 - [x] Módulo V - elementos de página
 - [x] Módulo VI - elementos de página e git
 - [x] Módulo VII - javascript
-- [ ] Módulo VIII - html semântico e flexbox
-- [ ] Módulo IX - programação orientada a objetos
-- [ ] Módulo X - nodejs
-- [ ] Módulo XI - sql
+- [x] Módulo VIII - html semântico e flexbox
+- [x] Módulo IX - programação orientada a objetos
+- [x] Módulo X - nodejs
+- [x] Módulo XI - sql
 - [ ] Módulo XII - hackaton
 
 Projetos do Bootcamp Tech Academy - Turma 1
