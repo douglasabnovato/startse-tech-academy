@@ -20,3 +20,4 @@ Projetos do Bootcamp Tech Academy - Turma 1
 - [x] startse: live coding 5a semana
 - [x] mario-game: live coding 7a semana
 - [x] pokedex: live coding 9a semana
+- [ ] sistema-financiamento: prática 9a semana
