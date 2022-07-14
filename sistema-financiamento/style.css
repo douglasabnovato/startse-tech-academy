@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(4, 4, 45);
+    color: white;
+    font: 11pt Tahoma;
+}
+
+header {
+    width: 55vw;
+    margin: 3vh auto 0;
+}
+
+.container {
+    width: 55vw;
+    margin: 0 auto;
+}
+
+.input-info {
+    background: rgba(84, 84, 209, 0.3);
+    margin: 2rem;
+}
+
+.view-info {
+    background: rgba(84, 84, 209, 0.3);
+    margin: 2rem;
+}
