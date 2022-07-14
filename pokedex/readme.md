@@ -10,3 +10,5 @@
 
 - o fetch é chamado dentro do loop for
 - revisar a estilização dos cards
+- modolarizar a solução
+- criar um modal com mais informações do pokemon e exibir quando clicar no card 
