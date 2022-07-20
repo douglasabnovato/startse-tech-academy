@@ -1,6 +1,7 @@
 ### StartSe
 
-Módulos
+Módulos do Bootcamp Tech Academy - Turma 1
+
 - [x] Módulo I - introdução sistemas e aplicações
 - [x] Módulo II - linguagens de programação
 - [x] Módulo III - aprendendo html e elementos
@@ -15,6 +16,7 @@ Módulos
 - [ ] Módulo XII - hackaton
 
 Projetos do Bootcamp Tech Academy - Turma 1
+
 - [x] portfolio: live coding 4a semana
 - [x] coffee: desafio 4a semana
 - [x] startse: live coding 5a semana

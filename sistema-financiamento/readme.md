@@ -1,3 +1,3 @@
 ### Sistema de Financiamento com Sistema de Amortização de Constantes (SAC)
 
-- regras de negócio no javascript
+- regras de negócio no javascript usando estratégia POO.
